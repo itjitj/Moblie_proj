@@ -10,8 +10,7 @@ void main() {
 
 // 앱 전역 테마와 첫 화면을 등록하는 최상위 위젯입니다.
 class KarrotApp extends StatelessWidget {
-  const KarrotApp({super.key});
-
+  const KarrotApp({super.key});//
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
